@@ -1,0 +1,17 @@
+{
+  "name": "authentication-api-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itachenko/authentication-api-nodejs.git"
+  },
+  "keywords": [],
+  "author": "Ivan Tachenko",
+  "license": "MIT",
+  "homepage": "https://github.com/itachenko/authentication-api-nodejs#readme"
+}
