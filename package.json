@@ -15,6 +15,7 @@
   "license": "MIT",
   "homepage": "https://github.com/itachenko/authentication-api-nodejs#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "joi": "^17.2.1",
