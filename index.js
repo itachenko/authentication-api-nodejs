@@ -4,10 +4,12 @@ const express = require("express");
 const mongo = require("mongoose");
 const app = express();
 const authRoute = require("./routes/auth");
+const privateRoute = require("./routes/private");
 
 app.use(express.json());
 
 app.use("/api/user", authRoute);
+app.use("/", privateRoute);
 
 mongo
   .connect(process.env.MONGODB_CONNECTIONSTRING, {
